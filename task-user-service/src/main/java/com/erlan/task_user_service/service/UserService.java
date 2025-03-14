@@ -1,0 +1,11 @@
+package com.erlan.task_user_service.service;
+
+import com.erlan.task_user_service.model.User;
+
+import java.util.List;
+
+public interface UserService {
+    public User getUserProfile(String jwt);
+
+    public List<User> getAllUsers();
+}
